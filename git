@@ -5,3 +5,8 @@
     changed but not yet staged. working area vs. staging area
     before add vs. after add
 git diff --staged # staged changes vs. last commit
+git diff --cached
+
+nochanged->(edit)->changed->(add)->staged->(commit)->(push)->remote repository
+git diff # nochanged vs. changed
+git diff --cached
