@@ -1,3 +1,4 @@
 git status
 git add
 git status -s
+git diff   # changed but not yet staged
