@@ -15,3 +15,11 @@ git commit -v
 git commit -m
 git commit -a # skip git add
 git rm # remove staged area and working area both
+    #git unset HEAD <filename>
+    #git checkout <filename>
+git rm --cached# remove staged area and working area both
+    #git checkout <filename>
+
+git mv
+    git rm
+    git add
