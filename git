@@ -13,3 +13,4 @@ git diff --cached
 git commit
 git commit -v
 git commit -m
+git commit -a # skip git add
