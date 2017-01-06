@@ -1,4 +1,7 @@
-git status
-git add
-git status -s
-git diff   # changed but not yet staged
+.git status
+.git add
+.git status -s
+.git diff
+    changed but not yet staged. working area vs. staging area
+    before add vs. after add
+git diff --staged # staged changes vs. last commit
