@@ -1,17 +1,38 @@
 .git status
+    .git status
+    .git status -s
+
 .git add
-.git status -s
+
 .git diff
     changed but not yet staged. working area vs. staging area
     before add vs. after add
-git diff --staged # staged changes vs. last commit
-git diff --cached
+    git diff --staged # staged changes vs. last commit
+    git diff --cached
+    nochanged->(edit)->changed->(add)->staged->(commit)->(push)->remote repository
+    git diff # nochanged vs. changed
 
-nochanged->(edit)->changed->(add)->staged->(commit)->(push)->remote repository
-git diff # nochanged vs. changed
-git diff --cached
-git commit
-git commit -v
-git commit -m
-git commit -a # skip git add
+.git commit
+    git commit
+    git commit --amend
+    git commit -v
+    git commit -m
+    git commit -a # skip git add
+
 git rm # remove staged area and working area both
+    #git unset HEAD <filename>
+    #git checkout <filename>
+    git rm --cached# remove staged area and working area both
+    #git checkout <filename>
+
+git mv
+    git rm
+    git add
+
+.git log
+    git log -p -2
+    git log --stat
+    git log --pretty=oneline
+    git log --pretty=format:"%h - %an, %ar : %s"
+    git log --graph
+
