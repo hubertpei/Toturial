@@ -10,3 +10,4 @@ git diff --cached
 nochanged->(edit)->changed->(add)->staged->(commit)->(push)->remote repository
 git diff # nochanged vs. changed
 git diff --cached
+git commit
