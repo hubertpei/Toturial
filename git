@@ -35,4 +35,3 @@ git mv
     git log --pretty=oneline
     git log --pretty=format:"%h - %an, %ar : %s"
     git log --graph
-
