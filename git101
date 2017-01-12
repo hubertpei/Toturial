@@ -1,0 +1,18 @@
+. reporsitory should include a README, LICENSE, and .gitignore
+
+. ssh
+git clone git@github.wdf.sap.corp:i836432/Arches-Release.git
+
+. create a new reporitory
+1) create a repository on server
+2) create a repository at local
+echo "# Arches-Release" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.wdf.sap.corp:i836432/Arches-Release.git
+git push -u origin master
+
+. push an exist repository
+git remote add origin git@github.wdf.sap.corp:i836432/Arches-Release.git
+git push -u origin master
